@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opdracht 5</title>
+</head>
+<body>
+    <form action="https://tm-statweb.be/forms.php" method="get">
+        <div>
+            <label for="Voornaam">Voornaam:
+                <input type="text" name="Voornaam" id="Voornaam" required>
+            </label>
+        </div>
+        <div>
+            <label for="Familienaam">Familienaam:
+                <input type="text" name="Familienaam" id="Familienaam" required>
+            </label>
+        </div>
+        <div>
+            <label for="Adres">Adres:
+                <input type="text" name="Adres" id="Adres">
+            </label>
+        </div>
+        <div>
+            <label for="Provincie">Provincie:
+                <select name="Provincie" id="Provincie">
+                    <option value="Limburg">Limburg</option>
+                    <option value="Antwerpen">Antwerpen</option>
+                    <option value="West-Vlaanderen">West-Vlaanderen</option>
+                    <option value="Oost-Vlaanderen">Oost-Vlaanderen</option>
+                    <option value="Henegouwen">Henegouwen</option>
+                    <option value="Vlaams-Brabant">Vlaams-Brabant</option>
+                    <option value="Luxemburg">Luxemburg</option>
+                    <option value="Namen">Namen</option>
+                    <option value="Waals-Brabant">Waals-Brabant</option>
+                    <option value="Luik">Luik</option>
+                </select>
+            </label>
+        </div>
+        <fieldset>
+            <legend>Geslacht</legend>
+            <label for="man">Man:
+                <input type="radio" name="geslacht" id="man">
+            </label>
+            <label for="vrouw">vrouw:
+                <input type="radio" name="geslacht" id="vrouw">
+            </label>
+            <label for="Ander">Ander:
+                <input type="radio" name="geslacht" id="Ander">
+            </label>
+        </fieldset>
+        <div>
+            <label for="Foto">Foto
+                <input type="file" name="Foto" id="Foto">
+            </label>
+        </div>
+        <div>
+            <label for="algemenevoorwaarden">Ik ga akkoord met de algemene voorwaarden</label>
+            <input type="checkbox" name="algemenevoorwaarden" id="algemenevoorwaarden">
+        </div>
+        <input type="submit" value="Registreren">
+    </form>
+    
+</body>
+</html>
