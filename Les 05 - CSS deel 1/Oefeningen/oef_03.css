@@ -1,0 +1,62 @@
+body{
+    background-color: white;
+    padding: 10px;
+    margin: 1px;
+}
+h1 {
+    color: maroon;
+    font-size: 75px;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+.borderroos{
+    border-style: solid;
+    border-color: palevioletred;
+    border-block-width: 10px;
+    border-inline-color: palevioletred;
+    background-color: palevioletred;
+    border-block-end-width: 10px;
+    padding:10px;
+    margin: 10px;
+}
+.lichtroos{
+    border-style: solid;
+    border-color: pink;
+    border-inline-color: pink;
+    border-block-width: 10px;
+    background-color: pink;
+    border-block-end-width: 10px;
+    padding:10px;
+    
+}
+#donkerroos{
+    border-style: solid;
+    border-color: palevioletred;
+    border-inline-color: palevioletred;
+    border-block-width: 10px;
+    background-color: palevioletred;
+    border-color: palevioletred;
+    border-block-end-width: 10px;
+    padding:10px;
+}
+.borderblauw{
+    border-style: solid;
+    border-color: lightblue;
+    border-inline-color: lightblue;
+    border-block-width: 10px;
+    background-color: lightblue;
+    border-block-end-width: 10px;
+    padding:10px;
+}
+.donkerblauw{
+    border-style: solid;
+    border-color: blue;
+    border-inline-color: blue;
+    background-color: blue;
+    border-block-width: 10px;
+    padding:10px;
+    
+}
+ol{
+    border-color: pink;
+}
