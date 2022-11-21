@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html {
+    background: url(./Afbeeldingen/kompas.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+.Noord{
+    position: absolute;
+    left: 50%;
+    top: 10px
+}
+.Oost{
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translate(0,-50%);
+}
+.Zuid{
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+    transform: translate(-50%,0)
+}
+.West{
+    position: absolute;
+    top: 50%;
+    left: 10px;
+}
+.Label{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: xx-large;
+}
